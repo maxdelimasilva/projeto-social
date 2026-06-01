@@ -3,7 +3,9 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family:Arial, Helvetica, sans-serif;
     box-sizing: border-box;
+    scrollbar-width: none;
 }
 
 body{
@@ -31,9 +33,10 @@ body{
     display:block;
     position: absolute;
     width: 275px;
-    aspect-ratio: 7/12;
+    height: 475px;
     top: 50%;
     right: 50%;
+    border: 5px solid #fff;
     transform: translateX(50%) translateY(-50%);
 
     background-image: url(assets/imagens/tela-home.jpg);
@@ -56,5 +59,9 @@ body{
     margin: 10px;
     border-radius: 10px;
     transition: all .3s ease-in-out;
+}
 
+.content-right img:hover{
+    transform: scale(1.2);
+    border: 2px solid #fff;
 }
