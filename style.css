@@ -18,7 +18,7 @@ body{
 
 .content-wrapper{
   position: absolute;
-  width: 100vw;
+  width: 92vw;
   height: 100vh;
 }
 
@@ -54,10 +54,10 @@ body{
 
 .content-right img{
     display: block;
-    max-width: 50px;
-    height: 50px;
-    margin: 10px;
-    border-radius: 10px;
+    max-width: 40px;
+    height: 40px;
+    margin: 30px;
+    border-radius: 50%;
     transition: all .3s ease-in-out;
 }
 
