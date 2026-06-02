@@ -9,7 +9,7 @@
 }
 
 body{
-    background-image: url(assets/imagens/fundo-madeira.jpg);
+    background-image: url(/assets/imagens/fundo-madeira.jpg);
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
@@ -19,7 +19,7 @@ body{
 .content-wrapper{
   position: absolute;
   width: 92vw;
-  height: 100vh;
+  height: 92vh;
 }
 
 .content{
@@ -39,7 +39,7 @@ body{
     border: 5px solid #fff;
     transform: translateX(50%) translateY(-50%);
 
-    background-image: url(assets/imagens/tela-home.jpg);
+    background-image: url(/assets/imagens/tela-home.jpg);
     background-size: cover;
     background-position: center;
 
